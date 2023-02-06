@@ -52,7 +52,7 @@ header{
     font-size: .7rem;
 }
 .nav-bar{
-    width: 60%;
+    width: 55%;
 }
 .nav-bar a{
     color: var(--primary-color);
@@ -84,8 +84,13 @@ a{
     color: var(--primary-color);
 }
 .jumbo p{
-    padding: 20px 0;
+    padding: 15px 0;
 }
+
+.jumbo-section .container{
+    padding-top: 10px;
+}
+
 /* main */
 
 .even {
