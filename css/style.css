@@ -157,7 +157,10 @@ footer{
     background-color: var(--bg-footer);
     color: var(--primary-color);
 }
-
+.footer-button{
+    background-color: var(--light-bg);
+    color: var(--primary-color);
+}
 ul{
     list-style: none;
 }
