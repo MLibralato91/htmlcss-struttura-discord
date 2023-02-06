@@ -34,9 +34,15 @@ body{
     justify-content: space-between;
     align-content: flex-start;
 }
+
+
 /* header */
 header{
     background-color: var(--bg-header);
+}
+
+.nav-bar{
+    width: 60%;
 }
 /* main */
 
