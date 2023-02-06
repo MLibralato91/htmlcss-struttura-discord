@@ -43,6 +43,16 @@ header{
 .even {
     background-color: var(--bg-section);
 }
+.space-img{
+    width: 60%;
+}
+.space-text{
+    width: 40%;
+}
+
+.invert{
+    flex-flow: row-reverse wrap;
+}
 /* footer */
 footer{
     background-color: var(--bg-footer);
