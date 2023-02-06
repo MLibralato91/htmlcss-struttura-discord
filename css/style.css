@@ -33,7 +33,6 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    
     align-items: center;
 }
 
@@ -72,6 +71,13 @@ a{
 }
 .jumbo{
     color: var(--primary-color);
+    text-align: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 .black {
     background-color: var(--bg-footer);
