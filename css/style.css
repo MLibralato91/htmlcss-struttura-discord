@@ -16,7 +16,7 @@
 }
 
 .container{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -65,7 +65,6 @@ a{
 }
 .jumbo-section{
     background-image: url(/img/jumbo.png);
-
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -105,17 +104,45 @@ a{
 }
 .space-text{
     min-height: 350px;
-    width: 23%;
+    width: 25%;
     text-align: left;
+
 }
 .space-text p{
     padding-top: 10px;
-    font-size: .6rem;
+    font-size: .8rem;
 }
-
+h2{
+    font-size: 2rem;
+}
 .invert{
     flex-flow: row-reverse wrap;
 }
+.main-bottom{
+    text-align: center;
+    padding: 50px 50px;
+}
+.main-bottom p{
+    padding: 20px 50px;
+}
+.main-bottom img{
+    width: 100%;
+}
+.star{
+    background-image: url(/img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50px;
+    justify-content: center;
+    padding: 30px 40px;
+}
+.bottom-button{
+    background-color: var(--light-bg);
+    color: var(--primary-color);
+    margin-top: 20px;
+}
+
 /* footer */
 footer{
     background-color: var(--bg-footer);
