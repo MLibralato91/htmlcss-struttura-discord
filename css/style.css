@@ -97,10 +97,20 @@ a{
     background-color: var(--bg-section);
 }
 .space-img{
-    width: 60%;
+    width: 65%;
+}
+
+.space-img img{
+    min-height: 400px;
 }
 .space-text{
-    width: 40%;
+    min-height: 350px;
+    width: 23%;
+    text-align: left;
+}
+.space-text p{
+    padding-top: 10px;
+    font-size: .6rem;
 }
 
 .invert{
