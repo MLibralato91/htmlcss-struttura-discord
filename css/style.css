@@ -67,6 +67,8 @@ a{
     background-image: url(/img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    
 }
 .jumbo{
     color: var(--primary-color);
@@ -100,7 +102,7 @@ a{
 }
 
 .space-img img{
-    min-height: 400px;
+    min-height: 500px;
 }
 .space-text{
     min-height: 350px;
