@@ -1,0 +1,16 @@
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color : #ffffff;
+    --bg-section : #f6f6f6;
+    --bg-footer : #23272a;
+    --dark-text : #000000;
+    --bg-header : #2c5de9;
+    --light-bg : #7689d9;
+}
