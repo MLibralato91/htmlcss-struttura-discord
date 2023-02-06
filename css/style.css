@@ -68,7 +68,6 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
 .jumbo{
     color: var(--primary-color);
@@ -145,6 +144,14 @@ h2{
     margin-top: 20px;
 }
 
+.wave{
+    background-color:var(--primary-color);
+}
+.wave-reverse{
+    background-color:var(--primary-color);
+    transform: scaleY(-1);
+    
+}
 /* footer */
 footer{
     background-color: var(--bg-footer);
