@@ -164,3 +164,21 @@ footer{
 ul{
     list-style: none;
 }
+
+.footer-top{
+    padding-top: 3rem;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--light-bg);
+}
+.f-flex {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.light-blue{
+    color: var(--light-bg);
+}
+li{
+    padding: 10px 0;
+}
