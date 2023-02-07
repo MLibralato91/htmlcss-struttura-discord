@@ -166,10 +166,15 @@ ul{
 }
 
 .footer-top{
-    padding-top: 3rem;
+    padding: 3rem 0;
     align-items: flex-start;
     justify-content: space-around;
     border-bottom: 1px solid var(--light-bg);
+
+}
+
+.bot-footer{
+    padding-top: 20px;
 }
 .f-flex {
     display: flex;
