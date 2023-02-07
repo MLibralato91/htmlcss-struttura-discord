@@ -42,10 +42,7 @@ body{
     color: var(--dark-text);
     padding: 8px 10px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     border-radius: 20px;
-
 }
 
 /* header */
@@ -144,6 +141,7 @@ h2{
     background-color: var(--light-bg);
     color: var(--primary-color);
     margin-top: 20px;
+    display: inline-block;
 }
 
 .wave{
